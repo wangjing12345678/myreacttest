@@ -1,0 +1,48 @@
+.tabList {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+.tabList li {
+  flex: 1;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.active{
+    color: red;
+    background: #f7f7f7;
+}
+.content{
+  padding-bottom: 40px;
+  
+}
+.content ul{
+  list-style: none;
+}
+.content li{
+  height: 50px;
+}
+.searchBox{
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBox input{
+  width: 100%;
+  border: 1px solid #999;
+  height: 30px;
+  border-radius: 4px;
+  padding: 0 8px;
+  outline: none;
+}
