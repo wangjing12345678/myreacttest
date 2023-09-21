@@ -21,6 +21,10 @@ import UseCallbackTest from './views/58hooks/useCallback'
 import UseMemoTest from './views/58hooks/useMemo'
 import UseRefTest from './views/58hooks/useRef'
 import UseContextTest from './views/58hooks/useContext'
+import UseReducerTest from './views/58hooks/useReducer'
+import UseReducer2Test from './views/58hooks/useReducer2'
+import UseMyHooks from './views/58hooks/自定义hooks'
+import RouterTest from './views/68路由/index'
 function App() {
   return <div>
     {/* <Xuanxiangka></Xuanxiangka> */}
@@ -42,7 +46,11 @@ function App() {
     {/* <UseCallbackTest></UseCallbackTest> */}
     {/* <UseMemoTest></UseMemoTest> */}
     {/* <UseRefTest></UseRefTest> */}
-    <UseContextTest></UseContextTest>
+    {/* <UseContextTest></UseContextTest> */}
+    {/* <UseReducerTest></UseReducerTest> */}
+    {/* <UseReducer2Test></UseReducer2Test> */}
+    {/* <UseMyHooks></UseMyHooks> */}
+    <RouterTest></RouterTest>
   </div>;
 }
 
