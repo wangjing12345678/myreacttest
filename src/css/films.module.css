@@ -1,0 +1,13 @@
+.hightLight {
+  color: cadetblue !important;
+}
+
+/* 标签选择器有可能影响全部 没法用style. */
+.aa {
+  list-style: none;
+}
+
+/* 表示当前选择器样式是全局的不会重新编码 */
+:global(.kkk) {
+  /* background-color: red; */
+}
